@@ -3,9 +3,6 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/strand)](https://cran.r-project.org/package=strand)
-[![Build
-Status](https://travis-ci.org/strand-tech/strand.svg?branch=master)](https://travis-ci.org/strand-tech/strand)
-[![codecov](https://codecov.io/gh/strand-tech/strand/branch/master/graph/badge.svg)](https://codecov.io/gh/strand-tech/strand)
 
 ## Overview
 
