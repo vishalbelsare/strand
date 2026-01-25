@@ -44,7 +44,7 @@ calculate_exposures <- function(detail_df,
   for (cat_var in category_vars) {
     this_exposures <- 
       detail_df %>%
-      group_by(.dots = c("strategy", cat_var)) %>%
+      group_by(pick(all_of(c("strategy", cat_var)))) %>%
       summarise(exposure = sum(.data[[in_var]])) %>%
       left_join(weight_divisor_df,
                 by = "strategy") %>%
